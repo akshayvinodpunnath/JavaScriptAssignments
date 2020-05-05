@@ -20,3 +20,6 @@ task3Element.addEventListener('click', showAlert);
 function threeStrings(string1, string2, string3) {
     return `${string1} ${string2} ${string3}`
 }
+
+
+alert(threeStrings('I currently','learning vanilla','Javascript :)'));
