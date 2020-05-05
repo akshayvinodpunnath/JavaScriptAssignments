@@ -8,6 +8,7 @@ function showName(name) {
     alert(`Name is: ${name}`);
 }
 
-showAlert();
-showName('Rocky');
+//showAlert();
+//showName('Rocky');
 
+task3Element.addEventListener('click', showAlert);
