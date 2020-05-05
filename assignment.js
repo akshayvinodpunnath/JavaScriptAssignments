@@ -7,3 +7,7 @@ function showAlert() {
 function showName(name) {
     alert(`Name is: ${name}`);
 }
+
+showAlert();
+showName('Rocky');
+
