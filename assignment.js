@@ -6,7 +6,7 @@ if (randomNumber > 0.7) {
 
 const arrayNumbers = [1,2,3,4,5];
 
-for ( let i=0 ; i < arrayNumbers.length; i++) {
+for ( let i=arrayNumbers.length-1 ; i>=0; i--) {
     console.log(arrayNumbers[i])
 }
 
