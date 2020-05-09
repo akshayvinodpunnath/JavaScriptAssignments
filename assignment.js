@@ -13,3 +13,12 @@ for ( let i=arrayNumbers.length-1 ; i>=0; i--) {
 for (let an of arrayNumbers) {
     console.log(an)
 }
+
+const newRandomNumber = Math.random();
+
+if ( (newRandomNumber > 0.7 && randomNumber >0.7) || (newRandomNumber < 0.2 || randomNumber < 0.2)) {
+    alert('condition success')
+}
+
+console.log(randomNumber);
+console.log(newRandomNumber);
