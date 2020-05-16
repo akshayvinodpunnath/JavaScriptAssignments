@@ -19,13 +19,20 @@
 // }
 
 // with returned value
-const sayHello = () => {
+// const sayHello = () => {
+//   const hello ='Hi';
+//   const name = 'Akshay'
+//   //console.log(`${hello} ${name}`);
+//   return `${hello} ${name}`
+// }
+
+//default argument
+const sayHello = (name = 'Akshay') => {
   const hello ='Hi';
-  const name = 'Akshay'
-  //console.log(`${hello} ${name}`);
+  console.log(`${hello} ${name}`);
   return `${hello} ${name}`
 }
 
 
 
-sayHello('Hi','Akshay');
+sayHello();
