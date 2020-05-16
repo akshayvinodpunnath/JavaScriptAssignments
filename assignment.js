@@ -33,6 +33,21 @@ const sayHello = (name = 'Akshay') => {
   return `${hello} ${name}`
 }
 
+const checkInput = (cb, ...arguments) => {
+  let emptyText = false;
+  for (const text of arguments) {
+    if(!text) {
+      emptyText = true
+      break
+    }
+  }
+  if (!emptyText) {
+    cb();
+  }
+}
 
+const consoleOutput = () => {
+  console.log('All not empty')
+}
 
-sayHello();
+checkInput(consoleOutput, 'Hello','12','adsfa','');
