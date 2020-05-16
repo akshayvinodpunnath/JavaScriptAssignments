@@ -1,5 +1,9 @@
-function sayHello(name) {
+const sayHello = (name) => {
   console.log('Hi ' + name);
 }
 
-sayHello();
+// function sayHello(name) {
+//   console.log('Hi ' + name);
+// }
+
+sayHello('Akshay');
