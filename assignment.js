@@ -11,12 +11,21 @@
 //   console.log(`${hello} ${name}`);
 // }
 
-//with no arguments
+// with no arguments
+// const sayHello = () => {
+//   const hello ='Hi';
+//   const name = 'Akshay'
+//   console.log(`${hello} ${name}`);
+// }
+
+// with returned value
 const sayHello = () => {
   const hello ='Hi';
   const name = 'Akshay'
-  console.log(`${hello} ${name}`);
+  //console.log(`${hello} ${name}`);
+  return `${hello} ${name}`
 }
+
 
 
 sayHello('Hi','Akshay');
