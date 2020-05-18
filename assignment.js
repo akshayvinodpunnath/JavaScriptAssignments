@@ -13,3 +13,7 @@ titleChange[0].innerText = 'Assignment - Solved!'
 const titleChange2 = document.querySelector('title')
 
 titleChange2.textContent = 'Assignment - Solved - 2!'
+
+const h1Change = document.querySelector('h1');
+
+h1Change.textContent = 'Assignment - Solved!'
