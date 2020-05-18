@@ -1,53 +1,19 @@
-// const sayHello = (name) => {
-//   console.log('Hi ' + name);
-// }
+const task1Selection1 = document.getElementById('task-1');
 
-// function sayHello(name) {
-//   console.log('Hi ' + name);
-// }
+task1Selection1.style.backgroundColor = 'black';
 
-//with 2 arguments
-// const sayHello = (hello, name) => {
-//   console.log(`${hello} ${name}`);
-// }
+const task1Selection2 = document.querySelector('ol li')
 
-// with no arguments
-// const sayHello = () => {
-//   const hello ='Hi';
-//   const name = 'Akshay'
-//   console.log(`${hello} ${name}`);
-// }
+task1Selection2.style.color = 'white'
 
-// with returned value
-// const sayHello = () => {
-//   const hello ='Hi';
-//   const name = 'Akshay'
-//   //console.log(`${hello} ${name}`);
-//   return `${hello} ${name}`
-// }
+const titleChange = document.head.getElementsByTagName('title');
 
-//default argument
-const sayHello = (name = 'Akshay') => {
-  const hello ='Hi';
-  console.log(`${hello} ${name}`);
-  return `${hello} ${name}`
-}
+titleChange[0].innerText = 'Assignment - Solved!'
 
-const checkInput = (cb, ...arguments) => {
-  let emptyText = false;
-  for (const text of arguments) {
-    if(!text) {
-      emptyText = true
-      break
-    }
-  }
-  if (!emptyText) {
-    cb();
-  }
-}
+const titleChange2 = document.querySelector('title')
 
-const consoleOutput = () => {
-  console.log('All not empty')
-}
+titleChange2.textContent = 'Assignment - Solved - 2!'
 
-checkInput(consoleOutput, 'Hello','12','adsfa','');
+const h1Change = document.querySelector('h1');
+
+h1Change.textContent = 'Assignment - Solved!'
